@@ -1,0 +1,4 @@
+#!/bin/sh
+
+(kubectl port-forward -n matchup svc/matchup 3000)
+wait
